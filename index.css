@@ -1,0 +1,32 @@
+textarea {
+    resize: none;
+    width: 290px;
+    height: 150px;
+}
+
+body{
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: break-all;
+}
+
+div{
+    display: inline-block;
+}
+
+.upper{
+    position:fixed;
+    right:50px;
+    bottom:50px;
+    transition:1s;
+    opacity:0.7;
+}
+    
+.upper:hover{
+    opacity:1;
+}
+
+.select_tag{
+    width: 160px;
+}
